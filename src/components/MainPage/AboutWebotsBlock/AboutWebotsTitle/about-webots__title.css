@@ -1,0 +1,89 @@
+.about-webots__title{
+    z-index: 2;
+    position:relative;
+    width:26.770833333333%;
+    text-align:center;
+    margin:0 auto;
+    margin-bottom:62px;
+}
+
+.about-webots__title .button_theme_turquoise-blue{
+    display:none;
+}
+
+.about-webots__title *{
+    font-family: Gotham Pro;
+    font-style: normal;
+    margin:0 auto;
+    color: #FFFFFF;
+}
+
+.about-webots-title__headline{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 34px;
+    color: #5EC8D9;
+    margin-bottom:20px;
+}
+
+.about-webots-title__short-description{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+    margin-bottom:22px;
+}
+
+.about-webots-title__description{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 17px;
+    margin-bottom:35px;
+}
+
+
+@media all and (max-width:1860px){
+    .about-webots__title{
+        width:30%;
+        margin-bottom:300px;
+    }
+}
+
+@media all and (max-width:1680px){
+    .about-webots__title{
+        width:40%;
+    }
+}
+
+@media all and (max-width:1280px){
+    .about-webots__title{
+        width:50%;
+    }
+}
+
+@media all and (max-width:1190px){
+
+    .about-webots-title__headline{
+        color: #FFFFFF;
+        font-size: 24px;
+        line-height: 23px;
+        margin-bottom:12px;
+    }
+
+    .about-webots-title__short-description{
+        font-size: 14px;
+        line-height: 15px;
+        margin-bottom:18px;
+    }
+
+    .about-webots-title__description{
+        display:none;
+    }
+
+    .about-webots__title .button_theme_turquoise-blue{
+        display:flex;
+    }
+
+    .about-webots__title .button_theme_turquoise{
+        display:none;
+    }
+}

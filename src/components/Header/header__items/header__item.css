@@ -1,0 +1,23 @@
+.header__item{
+    list-style-type: none;
+}
+
+.header__item__link{
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
+    color:#C4C4C4;
+    display:flex;
+    align-items: center;
+}
+
+.header__item__image{
+    margin-right:8px;
+}
+
+.header__item__link:hover .header__item__image path{
+    color:#5EC8D9;
+    fill:#5EC8D9;
+}

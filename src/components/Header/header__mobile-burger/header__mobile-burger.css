@@ -1,0 +1,20 @@
+.header__mobile-burger{
+    display:none;
+    height:27.11px;
+    width:30px;
+}
+
+.mobile-burger__decorate-element{
+    background: #5EC8D9;
+    height:5.81px;
+    width:30px;
+    border-radius: 5px;
+}
+
+@media all and (max-width:1190px){
+    .header__mobile-burger{
+        display:flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}

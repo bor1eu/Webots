@@ -1,0 +1,79 @@
+.create-assistants-block{
+    height:678px;
+    background:url("./img/create-assistants-fone.svg") 0 -300px/100% no-repeat ;
+    display:flex;
+    justify-content: center;
+}
+
+.create-assistants__decorate-phone-element{
+    height:678px;
+    width: 431px;
+    background:url("./img/decorate-phone-element.svg")no-repeat;
+    background-size:cover;
+    margin-right:200px;
+}
+
+.create-assistants__text-content{
+    padding-top:160px;
+    max-width:25.416666666666%;
+}
+
+.create-assistants__text-content .description-block__text{
+    width:85%;
+    line-height:20px;
+}
+
+@media all and (max-width: 1680px){
+
+    .create-assistants-block{
+        background:url("./img/create-assistants-fone.svg") 0 -280px/100% no-repeat ;
+    }
+}
+
+@media all and (max-width: 1500px){
+
+    .create-assistants-block{
+        background:url("./img/create-assistants-fone.svg") 0 -255px/100% no-repeat ;
+    }
+}
+
+@media all and (max-width: 1366px){
+
+    .create-assistants-block{
+        background:url("./img/create-assistants-fone.svg") 0 -230px/100% no-repeat ;
+    }
+}
+
+@media all and (max-width:1190px){
+    .create-assistants-block{
+        height:auto;
+        background:none;
+        display:block;
+    }
+
+    .create-assistants__decorate-phone-element{
+        height:385px;
+        width: 100%;
+        max-width:366px;
+        background:url("./img/mobile-decorate-phone-element.svg")no-repeat;
+        background-size:cover;
+        background-position:center;
+        margin-right:0;
+        margin:0 auto;
+    }
+
+    .create-assistants__text-content{
+        padding-top:16px;
+        max-width:100%;
+        text-align:center;
+    }
+
+    .create-assistants__text-content .description-block__text{
+        width:100%;
+        line-height:20px;
+    }
+
+    .create-assistants__text-content .button{
+        margin:0 auto;
+    }
+}

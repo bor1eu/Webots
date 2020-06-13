@@ -1,0 +1,32 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    overflow:visible;
+}
+
+a{
+    text-decoration:none;
+}
+
+@font-face {
+    font-family: "Gotham Pro";
+    src: url("./fonts/GothamPro-Medium.ttf");
+}
+
+.container{
+    max-width:1920px;
+    margin:0 auto;
+    width:100%;
+}
+
+.decorate-fone-block{
+    position:fixed;
+    z-index:3;
+    height:100%;
+    background: #22252A;
+    opacity: 0.75;
+    left:50%;
+    transform: translate(-50%,0%);
+    display:none;
+}

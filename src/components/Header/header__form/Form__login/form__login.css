@@ -1,0 +1,9 @@
+.form__login{
+    padding-top:83px;
+}
+
+@media all and (max-width:1024px){
+    .form__login{
+        padding-top:20px;
+    }
+}
