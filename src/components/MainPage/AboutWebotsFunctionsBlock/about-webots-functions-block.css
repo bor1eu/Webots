@@ -1,0 +1,41 @@
+.about-webots-functions-block{
+    height:828px;
+    padding-top:0;
+    position:relative;
+    display:block;
+    z-index: 2;
+    margin-bottom:45px;
+}
+
+.about-webot-functions__decorate-element{
+    display:block;
+    height:100%;
+    background-size: contain;
+    width:100%;
+    margin:0 auto;
+    background:url("./img/about-webots-decorate-phone.svg")no-repeat top center;
+    /*background:#22282A;
+    border: 20px solid #383B3F;
+    border-radius:60px/65px;*/
+}
+
+@media all and (max-width:1190px){
+
+    .about-webots-functions-block{
+        height:552px;
+    }
+
+    .about-webot-functions__decorate-element{
+        position:static;
+        max-width:272px;
+        width:85%;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0 30px 0;
+        background:url("./img/mobile-about-webots-decorate-phone.svg")no-repeat;
+        background-size: 100%;
+    }
+
+}

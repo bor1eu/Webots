@@ -1,0 +1,121 @@
+.rates-block__rate{
+    width: 27.5%;
+    background: #FBFBFB;
+    box-shadow: 0 4px 10px #7E7E7E;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 49px;
+    transition: transform 0.5s;
+}
+
+.rates-block__rate:hover{
+    transform: scale(1.2);
+}
+
+.rates-block__rate-name{
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    color: #22252A;
+    margin-bottom: 30px;
+}
+
+.rates-block__rate-price{
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 34px;
+    text-align: center;
+    color: #5EC8D9;
+    margin-bottom: 20px;
+}
+
+.rate-block__rate-subscription-term{
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 13px;
+    text-align: center;
+    color: #305E67;
+    margin-bottom: 44px;
+}
+
+.rate-block__rate-description{
+    max-width: 54.57317073170732%;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 17px;
+    text-align: center;
+    color: #22252A;
+    margin: 0 auto;
+    margin-bottom: 44px;
+}
+
+.rates-block__rate .button{
+    margin: 0 auto;
+}
+
+@media all and (max-width: 1500px){
+    .rates-block__rate{
+        width: 29%;
+    }
+}
+
+@media all and (max-width: 1280px){
+    .rates-block__rate{
+        width: 32%;
+    }
+
+    .rates-block__rate:hover{
+        transform: scale(1);
+    }
+}
+
+@media all and (max-width: 1190px){
+    .rates-block__rate{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 25px 24px 25px 20px;
+    }
+
+    .rates-block__rate-name{
+        margin-bottom: 0;
+    }
+
+    .rates-block__rate-price{
+        margin-bottom: 0;
+    }
+
+    .rate-block__rate-subscription-term{
+        display: none;
+    }
+
+    .rate-block__rate-description{
+        display: none;
+    }
+
+    .rates-block__rate .button{
+        display: none;
+    }
+}
+
+@media all and (max-width: 768px){
+    .rates-block__rate-name{
+        font-size: 14px;
+        line-height: 13px;
+    }
+
+    .rates-block__rate-price{
+        font-size: 18px;
+        line-height: 17px;
+    }
+}

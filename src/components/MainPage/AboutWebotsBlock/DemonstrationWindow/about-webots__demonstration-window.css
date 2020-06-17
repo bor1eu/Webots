@@ -1,0 +1,120 @@
+.about-webots__demonstration-window{
+    width:57.760416666666%;
+    position:relative;
+    margin:0 auto;
+    z-index: 2;
+}
+
+.about-webots__demonstration-window .header{
+    height:71px;
+    padding-left:10px;
+    padding-right:50px;
+}
+
+.about-webots__demonstration-window .header__logo{
+    width:135px;
+    height:30px;
+    background-size:135px 30px;
+    pointer-events: none;
+    cursor: default;
+}
+
+.about-webots__demonstration-window .header__notification-img{
+    height:15px;
+    width:15px;
+    margin-right:22px;
+}
+
+.about-webots__demonstration-window .account-data{
+    pointer-events: none;
+    cursor: default;
+}
+
+.about-webots__demonstration-window .account-data__avatar{
+    width: 30px;
+    height: 30px;
+}
+
+.demonstration-window__body{
+    height:291px;
+    background: #F3F4F6;
+    display:flex;
+}
+
+.demonstration-window__sidebar{
+    width:20.288548241659%;
+    background: #2C2F34;
+    height:100%;
+}
+
+.demonstration-window__main{
+    width:79.711451758341%;
+    height:100%;
+    padding-top:18px;
+    padding-left:54px;
+    padding-right:10px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.demonstration-window__headline-block{
+    width:100%;
+    margin-bottom:30px;
+}
+
+.demonstration-window__headline-block::before{
+    content:"";
+    background: #838585;
+    border-radius: 5px;
+    width:88px;
+    height:19px;
+    display:block;
+}
+
+.demonstration-window__decoration-block{
+    background: #FFFFFF;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
+    display:block;
+}
+
+.demonstration-window__decoration-block:nth-child(2){
+    height:115px;
+    width: 53.5%;
+    margin-right:34px;
+    position:relative;
+}
+
+.demonstration-window__decoration-block:nth-child(3){
+    height:115px;
+    width: 38%;
+    background: #5EC8D9;
+}
+
+.demonstration-window__decoration-block:nth-child(4){
+    height:51px;
+    width: 48%;
+    margin-right:34px;
+    margin-top:-5px;
+}
+
+.demonstration-window__decoration-block:nth-child(5){
+    height:51px;
+    width: 43%;
+    margin-top:-5px;
+}
+
+.demonstration-avatar{
+    position:absolute;
+    background:url("./img/demonstration-avatar.png");
+    width:80px;
+    height:80px;
+    top:-34px;
+    left:15px;
+}
+
+@media all and (max-width:1190px){
+    .about-webots__demonstration-window{
+        display:none;
+    }
+}

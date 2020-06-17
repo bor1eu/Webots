@@ -1,0 +1,33 @@
+.description-block{
+    font-family: Gotham Pro;
+    font-style: normal;
+}
+
+.description-block__headline{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 34px;
+    color: #5EC8D9;
+    margin-bottom:20px;
+}
+
+.description-block__text{
+    font-weight: normal;
+    font-size: 18px;
+    line-height:19px;
+    color: #000000;
+    margin-bottom:30px;
+}
+
+@media all and (max-width:1190px){
+
+    .description-block__headline{
+        font-size: 24px;
+        line-height: 23px;
+    }
+
+    .description-block__text{
+        font-size: 16px;
+        line-height:15px;
+    }
+}

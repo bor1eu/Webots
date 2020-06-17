@@ -1,0 +1,88 @@
+.create-uniform-style-block{
+    padding-top: 87px;
+    padding-bottom: 78px;
+    background: url("img/create-uniform-style-block-fone.png")no-repeat;
+    text-align:center;
+    display: flex;
+}
+
+.create-uniform-style-block__mobile-fone-image{
+    display: none;
+}
+
+.create-uniform-style-block__description{
+    width: 30.72916666666667%;
+}
+
+.create-uniform-style-block__description *{
+    margin: 0 auto;
+}
+
+.create-uniform-style-block__description .description-block__headline{
+    margin-bottom: 20px;
+}
+
+.create-uniform-style-block__description .description-block__text{
+    width: 87%;
+    margin-bottom: 30px;
+}
+
+.create-uniform-style-block__decorate-line{
+    width: 33.22916666666667%;
+    height: 2px;
+    border-bottom: 1px solid #5EC8D9;
+    padding-top: 30px;
+}
+
+.create-uniform-style-block__decorate-line:first-child{
+    margin-right: 1.40625%;
+}
+
+.create-uniform-style-block__decorate-line:nth-child(3){
+    margin-left: 1.40625%;
+}
+
+@media all and (max-width: 1780px){
+    .create-uniform-style-block__description{
+        width: 47%;
+    }
+}
+
+@media all and (max-width: 1366px){
+    .create-uniform-style-block__description{
+        width: 55%;
+    }
+}
+
+@media all and (max-width: 1280px){
+    .create-uniform-style-block__description{
+        width: 70%;
+    }
+}
+
+@media all and (max-width: 1190px){
+    .create-uniform-style-block{
+        background: none;
+        display: block;
+    }
+
+    .create-uniform-style-block__decorate-line{
+        display: none;
+    }
+
+    .create-uniform-style-block__mobile-fone-image{
+        display: block;
+        width: 81.875%;
+        height:262px;
+        background: url("./img/create-uniform-style-block-mobile-fone.svg") no-repeat center;
+        margin: 0 auto;
+    }
+
+    .create-uniform-style-block__description{
+        width: 90%;
+        border-left:1px solid #5EC8D9;
+        border-right:1px solid #5EC8D9;
+        margin: 0 auto;
+    }
+
+}

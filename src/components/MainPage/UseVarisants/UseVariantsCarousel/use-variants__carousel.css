@@ -1,0 +1,124 @@
+.use-variants__carousel-wrapper{
+    width:1222px;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+.use-variants__carousel{
+    width:1222px;
+    height:280px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:5px;
+}
+
+.use-variants__carousel__points{
+    display:none;
+}
+
+.use-variants__carousel-point{
+    width: 10px;
+    height: 10px;
+    display:block;
+    background: #FFFFFF;
+    border: 1px solid #5EC8D9;
+    border-radius:50%;
+}
+
+.use-variants__carousel-active-point{
+    background: #5EC8D9;
+}
+
+@media all and (max-width:1280px){
+    .use-variants__carousel-wrapper{
+        width:1000px;
+        margin:0 auto;
+        overflow: hidden;
+    }
+
+    .use-variants__carousel{
+        width:1000px;
+        height:280px;
+        display:flex;
+        justify-content: space-between;
+        padding-left:5px;
+        padding-right:5px;
+        padding-top:5px;
+    }
+}
+
+@media all and (max-width:1190px){
+    .use-variants__carousel-wrapper{
+        width:800px;
+        padding-left:25px;
+    }
+}
+
+@media all and (max-width:768px){
+    .use-variants__carousel-wrapper{
+        width:500px;
+        padding-left:0;
+    }
+}
+
+@media all and (max-width:533px){
+    .use-variants__carousel-wrapper{
+        width:275px;
+        padding-left:25px;
+    }
+
+    .use-variants__carousel{
+        width:950px;
+    }
+}
+
+@media all and (max-width:533px){
+    .use-variants__carousel-wrapper{
+        width:85%;
+        padding-left:15px;
+    }
+
+    .use-variants__carousel{
+        width:1000px;
+        margin-left:45px;
+    }
+}
+
+@media all and (max-width:420px){
+    .use-variants__carousel__points{
+        width:58px;
+        display:flex;
+        justify-content: space-between;
+        margin:0 auto;
+        padding-top:13px;
+        margin-bottom:31px;
+    }
+}
+
+
+@media all and (max-width:360px){
+
+    .use-variants__carousel-wrapper{
+        width:100%;
+        padding-left:15px;
+    }
+
+    .use-variants__carousel{
+        margin-left:45px;
+    }
+}
+
+@media all and (max-width:320px){
+
+    .use-variants__carousel-wrapper{
+        width:100%;
+        padding-left:15px;
+    }
+
+    .use-variants__carousel{
+        margin-left:25px;
+    }
+}

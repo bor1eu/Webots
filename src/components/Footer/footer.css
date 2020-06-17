@@ -1,0 +1,35 @@
+.footer{
+    height:449px;
+    background: #383B3F;
+    border-radius: 0 276px 0 0;
+}
+
+.footer__wrapper{
+    width:62.5%;
+    max-width:1200px;
+    display:flex;
+    margin:0 auto;
+    position:relative;
+}
+
+.footer__decorate-line{
+    height:1px;
+    background-color:#FFFFFF;
+    width:93%;
+    position:absolute;
+    top:77.2%;
+    left:45px;
+    z-index: 2;
+}
+
+@media all and (max-width: 1191px){
+
+    .footer{
+        border-radius: 0;
+    }
+
+    .footer__decorate-line{
+        display:none;
+    }
+
+}

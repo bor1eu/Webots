@@ -1,0 +1,10 @@
+.button_theme_turquoise{
+    color:#ffffff;
+    background-color:#5EC8D9;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 15px;
+    border-radius: 5px;/*Возможно параметр будет настраиваемый*/
+}

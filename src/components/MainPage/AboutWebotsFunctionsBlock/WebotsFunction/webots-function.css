@@ -1,0 +1,150 @@
+.about-webots-functions__webots-function{
+    height:60px;
+    width:18.229166666666%;
+    background: #FFFFFF;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding-left:30px;
+    position:absolute;
+}
+
+.function-level1{
+    top:11%;
+}
+
+.function-level2{
+    top:25%;
+}
+
+.function-level3{
+    top:38.5%;
+}
+
+.function-level4{
+    top:52%;
+}
+
+.function-level5{
+    top:65.5%;
+}
+
+.block-tail{
+    height:0;
+    width:0;
+}
+
+.function-side-left{
+    right:56.6%;
+}
+
+.function-side-right{
+    left:56.9%;
+    padding-left:5px;
+}
+
+.webots-function__content{
+    height:60px;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.webots-function__function-img{
+    width:30px;
+    height:30px;
+    margin-right:20px;
+}
+
+.webots-function__headline{
+    font-size: 14px;
+    line-height: 13px;
+    color: #5EC8D9;
+    margin-bottom:7px;
+}
+
+.webots-function__description{
+    font-size: 11px;
+    line-height: 11px;
+    color: #22252A;
+}
+
+@media all and (max-width:1680px){
+    .function-level1{
+        top:10%;
+    }
+
+    .function-level2{
+        top:25%;
+    }
+
+    .function-level3{
+        top:40%;
+    }
+
+    .function-level4{
+        top:55%;
+    }
+
+    .function-level5{
+        top:70%;
+    }
+}
+
+@media all and (max-width:1570px){
+    .about-webots-functions__webots-function{
+        width:26%;
+    }
+}
+
+@media all and (max-width:1190px){
+
+    .about-webots-functions__webots-function{
+        height:85px;
+        width:37.86764705882353%;
+        position:static;
+        padding:10px 0 12px 0;
+    }
+
+    .about-webots-functions__webots-function:nth-child(odd){
+        margin-right:16px;
+    }
+
+    .block-tail{
+        display:none;
+    }
+
+    .function-side-left{
+        right: 0;
+    }
+
+    .webots-function__content{
+        padding-left:5%;
+        padding-right:5%;
+        width:100%;
+    }
+
+    .webots-function__function-img{
+        margin: 0 auto;
+        width:100%;
+        margin-bottom:13px;
+    }
+
+    .webots-function__function-img path{
+        fill:#2B555D;
+    }
+
+    .webots-function__headline{
+        width:100%;
+        text-align:center;
+        font-size: 10px;
+        line-height: 10px;
+        color: #222931;
+    }
+
+    .webots-function__description{
+        display:none;
+    }
+}

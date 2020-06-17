@@ -1,0 +1,27 @@
+.header__logo{
+    width: 178px;
+    height: 39px;
+    background-size:178px 39px;
+    /*margin-right:8.8541666666666%;*/
+}
+
+@media all and (max-width: 1680px){
+    .header__logo{
+        margin-right: 5%;
+    }
+}
+
+@media all and (max-width: 1365px){
+    .header__logo {
+        margin-right:3%;
+    }
+}
+
+@media all and (max-width:1190px){
+    .header__logo{
+        width: 120px;
+        height: 30px;
+        background-size:120px 30px;
+        margin-right:0;
+    }
+}

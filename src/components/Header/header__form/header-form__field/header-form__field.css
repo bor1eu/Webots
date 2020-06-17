@@ -1,0 +1,53 @@
+.form__field{
+    height: 33px;
+    width:46.10472541507%;
+    min-width:361px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display:flex;
+    align-items:center;
+    outline:none;
+    padding-left:12px;
+    padding-right:10px;
+    margin-bottom:30px;
+    position:relative;
+}
+
+.form__field-error{
+    border: 1px solid #E03658 !important;
+}
+
+.form-field__errorText{
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 11px;
+    color: #E03658;
+    top:38px;
+    position:absolute;
+}
+
+.form-field__input{
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    width: 100%;
+    vertical-align: middle;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #22252A;
+}
+
+.password-field__toggle-password-button{
+    height:20px;
+    width:25px;
+    border: none;
+    background: url("../img/hide-password-button.png") no-repeat 50% 50%;
+    cursor: pointer;
+    outline:none;
+}

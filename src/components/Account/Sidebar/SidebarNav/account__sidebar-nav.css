@@ -1,0 +1,30 @@
+.account__sidebar-nav {
+    height: 988px;
+    width: 83.606557377049%;
+    background-color: #2C2F34;
+    padding-left: 30px;
+    padding-top: 16px;
+}
+
+.account__sidebar-nav-item{
+    list-style-type: none;
+    margin-bottom: 33px;
+}
+
+.account__sidebar-nav-item-link{
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 13px;
+    color: #FFFFFF;
+}
+
+.account__sidebar-nav-item-image{
+    margin-right: 20px;
+}
+
+.account__sidebar-nav-item-link:hover .account__sidebar-nav-item-image path{
+    color:#5EC8D9;
+    fill:#5EC8D9;
+}

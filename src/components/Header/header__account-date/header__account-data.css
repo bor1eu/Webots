@@ -1,0 +1,22 @@
+.account-data{
+    display:flex;
+    align-items:center;
+}
+
+.account-data__avatar{
+    width: 50px;
+    height: 50px;
+    margin-right:17px;
+}
+
+.account-data__user-name{
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-right:25px;
+    background:url("./img/arrow-bottom.png")no-repeat 100% center;
+}
