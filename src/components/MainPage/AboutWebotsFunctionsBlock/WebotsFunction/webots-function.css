@@ -56,6 +56,7 @@
     width:30px;
     height:30px;
     margin-right:20px;
+    fill: #546164;
 }
 
 .webots-function__headline{
@@ -68,7 +69,7 @@
 .webots-function__description{
     font-size: 11px;
     line-height: 11px;
-    color: #22252A;
+    color: #041D22;
 }
 
 @media all and (max-width:1680px){

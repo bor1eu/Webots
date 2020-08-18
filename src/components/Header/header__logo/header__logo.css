@@ -1,5 +1,5 @@
 .header__logo{
-    width: 178px;
+    min-width: 178px;
     height: 39px;
     background-size:178px 39px;
     /*margin-right:8.8541666666666%;*/

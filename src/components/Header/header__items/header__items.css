@@ -1,11 +1,12 @@
 .header__items{
     display:flex;
-    min-width: 798px;
+    min-width: 707px;
+    width: 827px;
     justify-content: space-between;
     margin-right:15.833333333333%;
 }
 
-@media all and (max-width: 1680px){
+/* @media all and (max-width: 1680px){
     .header__items {
         min-width:640px;
         margin-right: 11%;
@@ -23,7 +24,7 @@
         min-width:600px;
         margin-right:3%;
     }
-}
+} */
 
 @media all and (max-width:1190px){
     .header__items{

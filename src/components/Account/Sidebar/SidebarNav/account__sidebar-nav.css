@@ -28,3 +28,8 @@
     color:#5EC8D9;
     fill:#5EC8D9;
 }
+
+.account__sidebar-nav-item-link:active .account__sidebar-nav-item-image path{
+    color:#5EC8D9;
+    fill:#5EC8D9;
+}
