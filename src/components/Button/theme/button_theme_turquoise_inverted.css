@@ -1,0 +1,11 @@
+.button_theme_turquoise_inverted {
+    color: #5EC8D9;
+    background-color: #FFFFFF;
+    border: 1px solid #5EC8D9;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    border-radius: 5px;/*Возможно параметр будет настраиваемый*/
+}

@@ -2,3 +2,7 @@
     display:block;
     background:url("./img/logo.svg") no-repeat;
 }
+
+.logo2{
+    background:url("./img/logo2.svg") no-repeat;
+}

@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import MainPage from './components/MainPage/MainPage';
 import Account from './components/Account/Account';
+import UnderConstruction from './components/UnderConstruction/UnderConstruction';
 
 class App extends Component{
 
@@ -71,6 +72,7 @@ class App extends Component{
                     <Header loginCompleted={this.state.loginCompleted} updateAccountData={this.updateAccountData} accountData={this.state.accountData} onLogin={this.onLogin} toggleEntry={this.toggleEntry} headerFormType={this.state.headerFormType} onChangeHeaderFormType={this.onChangeHeaderFormType} onLogout={this.onLogout}/>
                     <Route path="/" render={(props)=>sessionStorage.getItem("user")!=null? (<Redirect to={"/account"}/>):<MainPage {...props} onChangeHeaderFormType={this.onChangeHeaderFormType} toggleEntry={this.toggleEntry}/>} exact/>
                     <Route path="/account" render={(props)=><Account/>}/>
+                    <Route path="/uconst" render={(props)=><UnderConstruction/>}/>
                     <Route path="/" render={(props)=><Footer/>} exact/>
                 </div>
             </Router>

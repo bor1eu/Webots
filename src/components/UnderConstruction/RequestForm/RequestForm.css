@@ -1,0 +1,47 @@
+.under-construction__form {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.under-construction__form__headline {
+    width: 100%;
+    text-align: center;
+    color: #5EC8D9;        
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 110%;
+    margin-bottom: 30px;
+}
+
+.under-construction__form > span {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.under-construction__form__email {
+    width: 258px;
+    height: 35px;
+    background: #FFFFFF;
+    border: 1px solid #546164;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    color: #546164;
+    padding: 11px 10px;
+}
+
+.under-construction .button {
+    width: 224px;
+    height: 35px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+}
